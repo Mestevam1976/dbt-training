@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: globalmart
+    database: raw
+    schema: globalmart
+    tables: 
+      - name: customers
+      - name: orders
+      - name: product
+      
+       
